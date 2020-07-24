@@ -1,0 +1,22 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Android",
+      "type": "shell",
+      "command": "yarn android"
+    },
+    {
+      "label": "Start Metro Bundler",
+      "type": "shell",
+      "command": "yarn start"
+    },
+    {
+      "label": "Kill All Node",
+      "type": "shell",
+      "command": "killall node"
+    }
+  ]
+}
